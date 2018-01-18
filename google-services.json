@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1072706229100",
+    "firebase_url": "https://closer-1491309599857.firebaseio.com",
+    "project_id": "closer-1491309599857",
+    "storage_bucket": "closer-1491309599857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072706229100:android:13a76995a657ad8f",
+        "android_client_info": {
+          "package_name": "ru.ifsoft.findfiends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072706229100-adignp4r8gnn469j5p87a5hpi04up6ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJb9883QIHQsyQ6hwJ1LlMSIn0LOu39o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072706229100:android:75051fa6b9fccbb7",
+        "android_client_info": {
+          "package_name": "com.provenlogic.mingle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072706229100-adignp4r8gnn469j5p87a5hpi04up6ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJb9883QIHQsyQ6hwJ1LlMSIn0LOu39o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

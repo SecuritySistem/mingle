@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.provenlogic.mingle.Fragments.PeopleNearbyFragment">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/myImage"
+       android:layout_width="45dp"
+       android:layout_height="45dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="8dp"
+       android:layout_marginBottom="16dp"
+       />
+   
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/nearby_ppl"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="8dp"
+       android:paddingRight="8dp"
+       android:layout_below="@+id/myImage"/>
+
+</RelativeLayout>

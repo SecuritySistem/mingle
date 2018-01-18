@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_white"/>
+
+        <LinearLayout
+            android:background="@drawable/white_cards"
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:id="@+id/info_text"
+                android:layout_below="@+id/heart_image"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="You're Out of Likes"
+                android:textColor="@color/black_text_color"
+                android:alpha=".87"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get more likes in"/>
+
+            <TextView
+                android:id="@+id/time_left"
+                android:layout_marginTop="5dp"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get more likes in"/>
+
+            <View
+                android:id="@+id/separator"
+                android:layout_below="@+id/info_text"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="40dp"
+                android:alpha=".08"
+                android:background="@color/black_text_color" />
+
+            <LinearLayout
+                android:layout_below="@+id/separator"
+                android:id="@+id/purchase_superpower"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buy_box"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Get Unlimited Likes"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="with Super Powers"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/heart_image"
+        android:layout_centerHorizontal="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/heart_star" />
+
+
+</RelativeLayout>

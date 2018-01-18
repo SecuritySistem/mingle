@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_color="@color/colorAccent"
+        app:rb_duration="3000"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="3"
+        app:rb_scale="6">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/centerImage"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/user_profile" />
+
+        <TextView
+            android:id="@+id/no_match_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/centerImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/no_match_found_near_you"
+            android:visibility="gone" />
+    </com.skyfishjy.library.RippleBackground>
+
+    <LinearLayout
+        android:id="@+id/housing_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/housing_frame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <in.arjsna.swipecardlib.SwipeCardView
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:bottom_swipe_detect="false"
+                app:max_visible="1"
+                app:min_adapter_stack="4"
+                app:rotation_degrees="15.5"
+                app:top_swipe_detect="false" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:visibility="visible">
+
+
+            <android.support.design.widget.FloatingActionButton
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:elevation="0dp"
+                android:src="@drawable/dislike_image"
+                android:id="@+id/dislike_button"
+                app:backgroundTint="@color/white"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:fabSize="normal"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:src="@drawable/boost_like_outline"
+                android:elevation="0dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/boost"
+                app:backgroundTint="@color/white"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+                app:fabSize="normal"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+
+
+                <android.support.design.widget.FloatingActionButton
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:src="@drawable/like_button"
+                    android:elevation="0dp"
+                    android:id="@+id/like_button"
+                    app:backgroundTint="@color/white"
+                    android:clickable="true"
+                    android:scaleType="fitCenter"
+                    app:fabSize="normal"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

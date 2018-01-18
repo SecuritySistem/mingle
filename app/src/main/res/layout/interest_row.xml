@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/interest_layout"
+    android:background="@drawable/border_stroke"
+    android:orientation="horizontal"
+    android:layout_margin="4dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/interest_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:maxLines="1"
+        android:textStyle="bold"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nearby"
+            android:icon="@drawable/map_marker_radius"
+            android:title="People Nearby"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_encounter"
+            android:icon="@drawable/cards"
+            android:title="Encounters" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/message_processing"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/icon"
+            android:title="Activity"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/email"
+            android:title="Share with Friends" />
+        <item
+            android:id="@+id/nav_tnc"
+            android:icon="@drawable/clipboard_text"
+            android:title="Terms and condition" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About us"
+            android:icon="@drawable/worker"/>
+    </group>
+
+</menu>

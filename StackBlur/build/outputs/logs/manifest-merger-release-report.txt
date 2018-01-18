@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml
+		INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml
+		INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml
+		INJECTED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:8:22-78
+uses-sdk
+ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:9:5-11:41
+	android:targetSdkVersion
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:11:9-38
+	android:minSdkVersion
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:10:9-34
+application
+ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:13:5-18:19
+	android:label
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\Sara Husky Love\Desktop\Enterprise Graded Web + Mobile Dating Software\provenlogic-vodoo-32645a1db2d3\StackBlur\AndroidManifest.xml:17:9-40

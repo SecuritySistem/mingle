@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mingle</string>
+    <string name="facebook_app_id">200654480500217</string>
+    <string name="title_activity_display">DisplayActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="no_match_found_near_you">There is no one new around you.</string>
+
+    <string-array name="report_reasons">
+        <item>I just don\'t like him/her</item>
+        <item>Rude or abusive</item>
+        <item>Has inappropriate content</item>
+        <item>Using fake photos</item>
+        <item>Running a scam</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="you_have_no_matches_yet">There are no messages yet</string>
+
+</resources>

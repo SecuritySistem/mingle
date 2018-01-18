@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.provenlogic.mingle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAelWsaeVloIHu0MB7Yqs-NwUvJB3HEw8k" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ba7be5a6a21b0609435dff2fb05c0e1843c29ab6"
+            />
+
+        <activity
+            android:name="com.provenlogic.mingle.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:replace="android:theme" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.provenlogic.mingle.Activities.DisplayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.provenlogic.mingle.Activities.FilterActivity"
+            android:label="Filter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.provenlogic.mingle.Activities.ProfileViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.provenlogic.mingle.Activities.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.provenlogic.mingle.Activities.ChatHistoryActivity"
+            android:label="Messages"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.provenlogic.mingle.Activities.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.provenlogic.mingle.Activities.SettingsActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.provenlogic.mingle.Activities.BasicInfoActivity"
+            android:label="Basic info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.provenlogic.mingle.Activities.AccountActivity"
+            android:label="Account"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.provenlogic.mingle.Activities.PeopleNearbyActivity" />
+        <activity
+            android:name="com.provenlogic.mingle.Activities.ActivityPageActivity"
+            android:label="Activity"
+            android:screenOrientation="portrait" />
+
+        <!--Popularity Activity -->
+        <activity
+            android:name="com.provenlogic.mingle.Activities.PopularityActivity"
+            android:label="Popularity"
+            android:screenOrientation="portrait" />
+
+
+        <!--Gift Activity -->
+        <activity
+            android:name="com.provenlogic.mingle.Activities.GiftActivity"
+            android:label="Popularity"
+            android:screenOrientation="portrait" />
+
+        <!--Refill Credits Activity -->
+        <activity
+            android:name="com.provenlogic.mingle.Activities.RefillCreditsActivity"
+            android:label="Popularity"
+            android:screenOrientation="portrait" />
+
+        <!--Stripe Payment Activity -->
+        <activity
+            android:name="com.provenlogic.mingle.Activities.StripePaymentActivity"
+            android:label="Popularity"
+            android:screenOrientation="portrait" />
+
+        <!--Super Power Activity -->
+        <activity
+            android:name="com.provenlogic.mingle.Activities.SuperPowerActivity"
+            android:label="Popularity"
+            android:screenOrientation="portrait" />
+
+        <!--Login Activity -->
+        <activity
+            android:name="com.provenlogic.mingle.Activities.LoginActivity"
+            android:label="Popularity"
+            android:screenOrientation="portrait" />
+
+        <!--Register Activity -->
+        <activity
+            android:name="com.provenlogic.mingle.Activities.RegisterActivity"
+            android:label="Popularity"
+            android:screenOrientation="portrait" />
+
+        <!--Set profile picture Activity -->
+        <activity
+            android:name="com.provenlogic.mingle.Activities.SetProfilePictureActivity"
+            android:label="Upload Profile Picture"
+            android:screenOrientation="portrait" />
+
+
+        <service
+            android:name="com.provenlogic.mingle.Services.PushNotificationService"
+            android:exported="false"/>
+    </application>
+
+</manifest>
